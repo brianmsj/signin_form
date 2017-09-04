@@ -62,8 +62,7 @@ function checkEmail(value) {
   value = value.split('')
   for(let i=0;i<value.length;i++) {
     if(value[i] == '@') {
-      var inputValue = document.getElementById('four')
-      var userName.style.color = 'green'
+
       return;
     }
     else {

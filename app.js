@@ -64,6 +64,7 @@ function checkEmail(value) {
     if(value[i] == '@') {
       userName.id = 'userNameErrorTwo'
       userName.style.color = 'red'
+       messageSecond.style.marginTop = '1px'
 
       return;
     }
